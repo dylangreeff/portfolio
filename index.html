@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dylan Greeff — Developer</title>
+  <meta name="description" content="Dylan Greeff — final-year IT student, IT intern, and freelance web developer based in Centurion, South Africa. I build tools that run on their own." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dylan Greeff — Developer" />
+  <meta property="og:description" content="Final-year IT student and freelance web developer. I build tools that run on their own." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts: technical mono headings + readable sans body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ===== Nav ===== -->
+  <header class="nav" id="top">
+    <a href="#top" class="nav__brand">DG<span class="accent">.</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <p class="hero__eyebrow reveal">// Centurion, South Africa</p>
+      <h1 class="hero__name reveal">Dylan Greeff</h1>
+      <p class="hero__role reveal">
+        Developer building <span class="accent">tools that run on their own.</span>
+      </p>
+      <p class="hero__line reveal">
+        Final-year IT student, IT intern, and freelance web developer. I like clean code,
+        automation, and things that keep working without me watching.
+      </p>
+      <div class="hero__actions reveal">
+        <a href="#projects" class="btn btn--primary">View projects</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section">
+      <h2 class="section__title reveal"><span class="accent">01.</span> About</h2>
+      <div class="about reveal">
+        <p>
+          I'm a final-year IT student at <strong>Belgium Campus ITversity</strong>, finishing my
+          National Diploma in Information Technology. By day I'm an IT intern at
+          <strong>Bits &amp; Bytes Multimedia</strong>; on the side I build websites for clients and
+          create social media content as a freelancer.
+        </p>
+        <p>
+          What I care about most is writing tools that run independently — scripts and small systems
+          that do their job without needing a babysitter. Away from the keyboard, I'm into cars and
+          forex trading, which is where a lot of my side projects start.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills" class="section">
+      <h2 class="section__title reveal"><span class="accent">02.</span> Skills</h2>
+      <div class="skills">
+        <div class="skill-group reveal">
+          <h3 class="skill-group__title">Languages</h3>
+          <ul class="tags">
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>SQL</li>
+            <li>Delphi</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group__title">Web &amp; Frameworks</h3>
+          <ul class="tags">
+            <li>Flask</li>
+            <li>HTML &amp; CSS</li>
+            <li>JavaScript</li>
+            <li>WordPress / WooCommerce</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group__title">Focus Areas</h3>
+          <ul class="tags">
+            <li>Automation</li>
+            <li>Independent tools</li>
+            <li>Forex tech</li>
+            <li>Git &amp; version control</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section">
+      <h2 class="section__title reveal"><span class="accent">03.</span> Projects</h2>
+      <div class="projects">
+
+        <!-- TODO: update GitHub link when the repo is ready -->
+        <article class="card reveal">
+          <div class="card__head">
+            <h3 class="card__title">QR Code Generator</h3>
+            <a class="card__link" href="https://github.com/dylangreeff" target="_blank" rel="noopener" aria-label="QR Code Generator on GitHub">↗</a>
+          </div>
+          <p class="card__desc">
+            A group project that generates customisable QR codes from user input — built
+            collaboratively with version control and a shared workflow.
+          </p>
+          <ul class="card__tech">
+            <li>Python</li>
+            <li>Flask</li>
+            <li>Git</li>
+          </ul>
+        </article>
+
+        <!-- TODO: update link when the Forex clock is deployed -->
+        <article class="card reveal">
+          <div class="card__head">
+            <h3 class="card__title">Forex Market Session Clock</h3>
+            <a class="card__link" href="https://github.com/dylangreeff" target="_blank" rel="noopener" aria-label="Forex Market Session Clock on GitHub">↗</a>
+          </div>
+          <p class="card__desc">
+            A live clock that tracks the Sydney, Tokyo, London, and New York forex sessions so you
+            can see which markets are open at a glance. A tool I built for my own trading.
+          </p>
+          <ul class="card__tech">
+            <li>JavaScript</li>
+            <li>HTML / CSS</li>
+          </ul>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__head">
+            <h3 class="card__title">Portfolio Website</h3>
+            <a class="card__link" href="https://github.com/dylangreeff/portfolio" target="_blank" rel="noopener" aria-label="Portfolio Website on GitHub">↗</a>
+          </div>
+          <p class="card__desc">
+            This site — hand-built with plain HTML, CSS, and vanilla JavaScript. No frameworks, no
+            build tools, version controlled from the first commit and hosted on GitHub Pages.
+          </p>
+          <ul class="card__tech">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section section--contact">
+      <h2 class="section__title reveal"><span class="accent">04.</span> Contact</h2>
+      <p class="contact__line reveal">
+        Open to freelance work, collaboration, or just talking shop about code and cars.
+      </p>
+      <div class="contact__links reveal">
+        <a href="mailto:dylangreeff7@gmail.com" class="btn btn--primary">dylangreeff7@gmail.com</a>
+        <a href="https://github.com/dylangreeff" target="_blank" rel="noopener" class="btn btn--ghost">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built by Dylan Greeff · <span id="year"></span> · <span class="accent">No template.</span></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
